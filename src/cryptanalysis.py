@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import logging
-from freq import monograms,bigrams,quadgrams,words
+from src.freq import monograms,bigrams,quadgrams,words
 letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 def cryptanalysis(msg):

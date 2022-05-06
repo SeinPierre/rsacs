@@ -50,8 +50,8 @@ class Freq(object):
 
 # --------------------------------------------------------------------
 # Uncomment to get the freq. 
-monograms = Freq('english_monograms.txt', cache = 'monograms')
-bigrams   = Freq('english_bigrams.txt'  , cache = 'bigrams'  )
-trigrams  = Freq('english_trigrams.txt' , cache = 'trigrams' )
-quadgrams = Freq('english_quadgrams.txt', cache = 'quagrams' )
-words     = Freq('english_words.txt'    , cache = 'words'    )
+monograms = Freq('.cache/english_monograms.txt', cache = 'monograms')
+bigrams   = Freq('.cache/english_bigrams.txt'  , cache = 'bigrams'  )
+trigrams  = Freq('.cache/english_trigrams.txt' , cache = 'trigrams' )
+quadgrams = Freq('.cache/english_quadgrams.txt', cache = 'quagrams' )
+words     = Freq('.cache/english_words.txt'    , cache = 'words'    )
