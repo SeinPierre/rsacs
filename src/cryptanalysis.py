@@ -22,8 +22,6 @@ def cryptanalysis(msg):
     logging.debug(mapping)
 
     msg = "".join(str(x) for x in [mapping[x] for x in msg])
-
-
     
     return msg
 
